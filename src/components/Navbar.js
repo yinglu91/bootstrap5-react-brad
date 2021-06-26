@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3">
       <div className="container">
         <a href="#" className="navbar-brand">
           Frontend Bootcamp
