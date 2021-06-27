@@ -25,7 +25,7 @@ const Boxes = () => {
   return (
     <section className="p-5">
       <div className="container">
-        <div className="row text-center">
+        <div className="row text-center g-4">
           {boxesData.map((box) => (
             <div key={box.id} className="col-md">
               <div className={`card bg-${box.bgColor} text-light`}>

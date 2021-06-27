@@ -4,6 +4,8 @@ import Banner from './components/Banner';
 import NewsLetter from './components/NewsLetter';
 import Boxes from './components/Boxes';
 
+import LearnSections from './components/LearnSections';
+
 const App = () => {
   return (
     <div>
@@ -12,6 +14,7 @@ const App = () => {
 
       <NewsLetter />
       <Boxes />
+      <LearnSections />
     </div>
   );
 };
