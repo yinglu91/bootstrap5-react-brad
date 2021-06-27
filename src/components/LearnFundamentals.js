@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LearnSections = () => {
+const LearnFundamentals = () => {
   return (
     <section id="learn" class="p-5">
       <div class="container">
@@ -30,4 +30,4 @@ const LearnSections = () => {
   );
 };
 
-export default LearnSections;
+export default LearnFundamentals;
