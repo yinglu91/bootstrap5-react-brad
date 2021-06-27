@@ -11,6 +11,10 @@ import Instructors from './components/Instructors';
 
 import Contact from './components/Contact';
 
+import Footer from './components/Footer';
+
+import EnrollFormModal from './components/EnrollFormModal';
+
 const App = () => {
   return (
     <div>
@@ -24,7 +28,13 @@ const App = () => {
 
       <QuestionAccordion />
 
+      <Instructors />
+
       <Contact />
+
+      <Footer />
+
+      <EnrollFormModal />
     </div>
   );
 };

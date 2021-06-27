@@ -14,7 +14,11 @@ const Banner = () => {
               and greatest technologies to prepare them for their first dev role
             </p>
 
-            <button className="btn btn-primary btn-lg">
+            <button
+              className="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
               Start The Enrollment
             </button>
           </div>
