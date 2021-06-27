@@ -4,7 +4,9 @@ import Banner from './components/Banner';
 import NewsLetter from './components/NewsLetter';
 import Boxes from './components/Boxes';
 
-import LearnSections from './components/LearnSections';
+import LearnFundamentals from './components/LearnFundamentals';
+import LearnReact from './components/LearnReact';
+import QuestionAccordion from './components/QuestionAccordion';
 
 const App = () => {
   return (
@@ -14,7 +16,10 @@ const App = () => {
 
       <NewsLetter />
       <Boxes />
-      <LearnSections />
+      <LearnFundamentals />
+      <LearnReact />
+
+      <QuestionAccordion />
     </div>
   );
 };

@@ -36,11 +36,14 @@ const Boxes = () => {
                   <div className="h1 mb-3">
                     <i className={`bi bi-${box.icon}`}></i>
                   </div>
+
                   <h3 className="card-title mb-3">{box.title}</h3>
+
                   <p className="card-text">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Iure, quas quidem possimus dolorum esse eligendi?
                   </p>
+
                   <a href="#" className={`btn btn-${box.btnBgColor}`}>
                     Read More
                   </a>
