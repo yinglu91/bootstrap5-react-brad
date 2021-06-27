@@ -1,4 +1,3 @@
-import React from 'react';
 import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import NewsLetter from './components/NewsLetter';
@@ -9,6 +8,8 @@ import LearnReact from './components/LearnReact';
 import QuestionAccordion from './components/QuestionAccordion';
 
 import Instructors from './components/Instructors';
+
+import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -22,7 +23,8 @@ const App = () => {
       <LearnReact />
 
       <QuestionAccordion />
-      <Instructors />
+
+      <Contact />
     </div>
   );
 };
