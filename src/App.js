@@ -8,6 +8,8 @@ import LearnFundamentals from './components/LearnFundamentals';
 import LearnReact from './components/LearnReact';
 import QuestionAccordion from './components/QuestionAccordion';
 
+import Instructors from './components/Instructors';
+
 const App = () => {
   return (
     <div>
@@ -20,6 +22,7 @@ const App = () => {
       <LearnReact />
 
       <QuestionAccordion />
+      <Instructors />
     </div>
   );
 };
