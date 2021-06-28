@@ -29,9 +29,9 @@ const questionData = [
   },
 ];
 
-const QuestionAccordion = () => {
+const Questions = () => {
   return (
-    <section id="questions00" className="p-5">
+    <section id="questionsSection" className="p-5">
       <div className="container">
         <h2 className="text-center mb-4">Frequently Asked Questions</h2>
 
@@ -74,4 +74,4 @@ const QuestionAccordion = () => {
   );
 };
 
-export default QuestionAccordion;
+export default Questions;

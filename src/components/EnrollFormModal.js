@@ -1,4 +1,4 @@
-const EnrollFormModal = () => {
+const EnrollFormModal = ({ showModal, setShowModal }) => {
   return (
     <div
       className="modal fade"

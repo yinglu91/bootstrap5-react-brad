@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import NewsLetter from './components/NewsLetter';
@@ -5,7 +6,7 @@ import Boxes from './components/Boxes';
 
 import LearnFundamentals from './components/LearnFundamentals';
 import LearnReact from './components/LearnReact';
-import QuestionAccordion from './components/QuestionAccordion';
+import Questions from './components/Questions';
 
 import Instructors from './components/Instructors';
 
@@ -16,6 +17,8 @@ import Footer from './components/Footer';
 import EnrollFormModal from './components/EnrollFormModal';
 
 const App = () => {
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <div>
       <Navbar />
@@ -26,7 +29,7 @@ const App = () => {
       <LearnFundamentals />
       <LearnReact />
 
-      <QuestionAccordion />
+      <Questions />
 
       <Instructors />
 
